@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel y Pasadia | La Mesa</title>
+    <!-- Vinculamos el CSS externo -->
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- ===== ENCABEZADO ===== -->
+        <header class="hotel-header">
+            <h1>Hotel y Pasadia | La Mesa</h1>
+            <p class="location">📍 Kilómetro 107 vía Bogotá-La Mesa - Cundinamarca - Colombia</p>
+        </header>
+
+        <!-- ===== AVISOS IMPORTANTES ===== -->
+        <div class="alerts">
+            <p><strong>📌 Menores de 18 años:</strong> Solo pueden ingresar si presentan carta de autorización autenticada ante notaría, en caso de no estar acompañados por sus padres. Sin este documento no se permitirá su ingreso.</p>
+            <p><strong>🐾 Mascotas:</strong> Solo está permitido el ingreso de mascotas de apoyo emocional con documento de la EPS que certifique su condición y carné de vacunación vigente.</p>
+        </div>
+
+        <!-- ===== SERVICIOS ===== -->
+        <section class="services-section">
+            <h2>Servicios</h2>
+            <div class="services-grid">
+                <!-- Categoría: Hotel -->
+                <div class="service-category">
+                    <h3>🏨 Hotel</h3>
+                    <ul>
+                        <li>Parqueadero</li>
+                        <li>Área de juegos</li>
+                        <li>Cafetería</li>
+                        <li>Piscina infantil</li>
+                        <li>Restaurante(s)</li>
+                        <li>Acceso a Internet inalámbrico</li>
+                        <li>Zona Internet/WiFi</li>
+                        <li>Piscina exterior</li>
+                        <li>Bar</li>
+                    </ul>
+                </div>
+                <!-- Categoría: Habitación -->
+                <div class="service-category">
+                    <h3>🛏️ Habitación</h3>
+                    <ul>
+                        <li>Artículos de baño</li>
+                        <li>Baño</li>
+                        <li>Caja de seguridad</li>
+                        <li>Wi-Fi</li>
+                        <li>Pantalla TV plana</li>
+                    </ul>
+                </div>
+                <!-- Categoría: Deportes -->
+                <div class="service-category">
+                    <h3>⚽ Deportes</h3>
+                    <ul>
+                        <li>Baloncesto</li>
+                        <li>Tenis</li>
+                        <li>Voleibol de playa</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CALENDARIO ===== -->
+        <section class="calendar-section">
+            <h2>Entrada - Salida</h2>
+            <div class="calendar-grid">
+                <!-- Mes de Julio -->
+                <div class="month" id="month-jul">
+                    <h4>Julio 2026</h4>
+                    <div class="weekdays">
+                        <span>Lun</span><span>Mar</span><span>Mié</span><span>Jue</span>
+                        <span>Vie</span><span>Sáb</span><span>Dom</span>
+                    </div>
+                    <div class="days"></div> <!-- Los días se llenan con JS -->
+                </div>
+                <!-- Mes de Agosto -->
+                <div class="month" id="month-ago">
+                    <h4>Agosto 2026</h4>
+                    <div class="weekdays">
+                        <span>Lun</span><span>Mar</span><span>Mié</span><span>Jue</span>
+                        <span>Vie</span><span>Sáb</span><span>Dom</span>
+                    </div>
+                    <div class="days"></div> <!-- Los días se llenan con JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PIE DE PÁGINA ===== -->
+        <footer>
+            <p>© 2026 Compensar - Turismo. Todos los derechos reservados.</p>
+        </footer>
+
+    </div>
+
+    <!-- Vinculamos el JS externo -->
+    <script src="script.js"></script>
+</body>
+</html>
